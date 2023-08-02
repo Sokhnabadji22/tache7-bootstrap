@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .sec-store2_wrapper .card-image{
+        position: relative;
+        z-index:0; 
+        }
+        .sec-store2_wrapper .card-text{
+        background-color:rgb(246,225,197);
+        position:relative; 
+        z-index: 1;
+        bottom: 150px;
+        }
+
+        @media screen and (max-width:1000px) {
+            .sec-store2_wrapper .card-text{
+                bottom: 0px;
+                } 
+        }

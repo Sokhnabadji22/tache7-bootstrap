@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{    
+background-image: url(images/bg-body.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+} 
+.header_wrapper .navbar{
+background-color: rgb(73,9,9);    
+}
+.footer_wrapper{
+background-color:rgb(49,25,25);    
+}
+.sec1_wrapper .card-text{
+background-color:rgb(246,225,197); 
+position: relative; 
+z-index: 0;
+left: 10%;  
+top: 20px;   
+}
+.sec1_wrapper .card-img{
+position: absolute;
+z-index:1;
+}
+.btn{
+background-color: rgb(73,9,9); 
+position: relative;
+bottom: -20px;   
+}
+.sec2_wrapper,.sec-store1_wrapper{
+background-color:rgba(165, 52, 43, 0.69); 
+}
+ .para1{
+background-color:rgb(246,225,197);
+}
+
+
+@media screen and (max-width:1000px) {
+    .sec1_wrapper .card-text{
+    left: 0;    
+    }
+}
